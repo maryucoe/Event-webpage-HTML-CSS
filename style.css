@@ -1,0 +1,168 @@
+body{
+    background-image: url('/pics/Untitled-1.png');
+    font-family:sans-serif;
+    margin:0;
+}
+
+.container{
+    display:flex;
+    text-align:center;
+    
+}
+.container1{
+    display: inline-block;
+    background-color:#E0E2DB ;
+    border:#ffffff solid 5px;
+    width:36em;
+    margin-left: 14px;
+    text-align: center;
+    margin-top: 20px;
+    height:12.5em;
+    margin-right: 1.5em;
+    transition:transform 0.2s ease-out;
+}
+
+.container1:hover{
+    transform: scale(1.01);
+
+}
+
+.title1{
+    color:#2E3532;
+    font-size: 3em;
+    margin-top: 15px;
+    margin-bottom:0px;
+}
+
+.container-flex{
+    transition:transform 0.1s ease-out;
+}
+
+.container-flex:hover{
+    transform: scale(1.02);
+    display:flex;
+}
+
+.text1{
+    color:#2E3532;
+    margin-top:4px;
+    max-width:550px;
+    text-align:center;
+    margin-left: 79px;
+    text-decoration: solid;
+}
+
+.container2{
+    display: inline-block;
+    background-color:#E0E2DB ;
+    border:0;
+    border-left:#ffffff solid 5px;
+    width: 42.7em;
+    height:37.1em;
+    margin:0;
+    position:absolute;
+    padding: 15px 0px 20px 38px;
+    position:fixed;
+    
+}
+
+
+.box1{
+    display: inline-block;
+    background-color: #2E3532;
+    width:10.2em;
+    height:10em;
+    color:white;
+    text-align: center;
+    margin-top: 1.2em;
+    margin-bottom: 1em;
+}
+.date{
+    margin:0;
+    padding-top: 43px;
+    font-size: 3em;
+    
+}
+.month{
+    margin:0;
+    font-size:1.5em;
+}
+.card{
+    display: inline-block;
+    border: #2E3532 solid 5px;
+    width:30em;
+    height:9.56em;
+    position:absolute;
+    background-color:#ffffff;
+    margin-top: 1.2em;
+   
+  
+}
+
+
+.text2{
+    margin-left: 20px;
+    margin-top:20px;
+}
+.details{
+    background-color:#2E3532;
+    color:white;
+    border-radius:5px;
+    font-size:18px;
+    padding: 10px 20px 10px 20px;
+    border:0;
+    margin-left: 20px;
+    margin-top:3px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-out;
+    
+}
+
+.details:hover{
+    opacity:0.8;
+}
+
+.icon{
+    width:2em;
+    padding:0.1em;
+    margin-left: 10px;
+    cursor: pointer;
+    transition:transform 0.2s ease-out;
+}
+
+.icon:hover{
+    transform: scale(1.05);
+}
+
+
+.logo{
+    display:flex;
+    width:25em;
+    margin: 1.4em 1.5em 0em 2em;
+    transition:transform 0.3s ease-out;    
+    cursor: pointer;
+}
+
+.logo:hover{
+    transform: scale(1.03);
+}
+
+.container3{
+    
+    background-color:#E0E2DB;
+    width:3em;
+    height:10em;
+    padding:0.6em 0.1em 0em 0em;
+    margin-top: 5em;
+    border:#2E3532 solid 5px;
+    
+   
+}
+
+.text2{
+    font-size: small;
+}
+
+.last{
+    display:flex;
+}
